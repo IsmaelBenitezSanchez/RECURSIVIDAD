@@ -18,7 +18,7 @@ public class TorreDeHanoi {
     }
 
     public static void main(String[] args) {
-        int n = 4; // número de discos
-        resolverHanoi(n, 'A', 'B', 'C'); // A = origen, B = auxiliar, C = destino
+        int n = 3; // número de discos
+        resolverHanoi(n, 'A', 'B', 'C');
     }
 }
