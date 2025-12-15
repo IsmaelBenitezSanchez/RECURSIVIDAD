@@ -1,6 +1,5 @@
 public class TorreDeHanoi {
 
-    // Método recursivo
     public static void resolverHanoi(int n, char origen, char auxiliar, char destino) {
         if (n == 1) {
             System.out.println("Mover disco 1 de " + origen + " a " + destino);
@@ -18,7 +17,7 @@ public class TorreDeHanoi {
     }
 
     public static void main(String[] args) {
-        int n = 3; // número de discos
+        int n = 3;
         resolverHanoi(n, 'A', 'B', 'C');
     }
 }
